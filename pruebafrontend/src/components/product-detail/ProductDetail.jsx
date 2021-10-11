@@ -23,14 +23,16 @@ export const ProductDetail = () => {
       <div className="product-detail">
         <div className="detail-container">
           <div className="container-card">
-            <ProductCardDetail
-              title={idDetail.title}
-              condition={idDetail.condition}
-              sold_quantity={idDetail.sold_quantity}
-              picture={idDetail.picture}
-              price={idDetail.price}
-              description={idDetail.description}
-            />
+            {idDetail &&
+          <ProductCardDetail
+            title={idDetail.title}
+            condition={idDetail.condition}
+            sold_quantity={idDetail.sold_quantity}
+            picture={idDetail.picture}
+            price={idDetail.price}
+            description={idDetail.description}
+          />
+          }
           </div>
         </div>
       </div>

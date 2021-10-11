@@ -22,7 +22,7 @@ export const SearchResult = () => {
       <div className="search-result">
         <div className="result-container">
           <div className="container-cards">
-            {items.map(item=>{
+            {items && items.map(item=>{
               return(
                 <ProductCard 
                 key={item.id}
