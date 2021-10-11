@@ -1,0 +1,14 @@
+.search-result{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .result-container{
+        background: white;
+        display: flex;
+        width: 75%;
+        .container-cards{
+            flex-direction: row;
+            width: 100%;
+        }
+    }
+}

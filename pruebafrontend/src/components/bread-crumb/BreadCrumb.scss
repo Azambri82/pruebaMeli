@@ -1,0 +1,15 @@
+.bread-crumb {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  .bread-crumb-container {
+    align-items: flex-start;
+    display: flex;
+    width: 75%;
+    .text-bread-crum {
+      color: #999999;
+    }
+  }
+}

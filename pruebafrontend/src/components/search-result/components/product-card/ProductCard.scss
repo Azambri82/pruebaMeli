@@ -1,0 +1,53 @@
+.product-card {
+  width: 100%;
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  .container-product-card {
+    color: black;
+    display: flex;
+    width: 100%;
+    .img-description {
+      display: flex;
+      text-decoration: none;
+      width: 80%;
+      .product-image {
+        border-radius: 0.25rem;
+        height: 11.25rem;
+        margin: 1rem;
+        width: 11.25rem;
+      }
+      .description {
+        margin: 1rem 0;
+        width: 50%;
+        .title{
+          width: 100%;
+        }
+        .price-shiping {
+          display: flex;
+          margin-bottom: 2rem;
+          margin-top: 1rem;
+          .price {
+            font-size: 24px;
+            margin-right: 0.75rem;
+          }
+          .ic-shiping {
+            height: 1rem;
+            margin-top: 0.5rem;
+          }
+         
+        }
+      }
+    }
+    .location {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 5.25rem;
+      margin-right: 4.5rem;
+      width: 20%;
+      .text-location {
+        color: #999999;
+      }
+    }
+  }
+}

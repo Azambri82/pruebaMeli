@@ -1,0 +1,14 @@
+.product-detail {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  .detail-container {
+    background: white;
+    display: flex;
+    width: 75%;
+    .container-card {
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+}

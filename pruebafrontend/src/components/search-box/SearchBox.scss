@@ -1,0 +1,47 @@
+.search-box {
+  background: #ffe600;
+  height: 3.5rem;
+  .container-elements {
+    display: flex;
+    justify-content: center;
+    .input-container {
+      display: flex;
+      justify-content: center;
+      width: 75%;
+      input {
+        border: none;
+        height: 2rem;
+        margin-top: 0.75rem;
+        padding-left: 1.25rem;
+        width: 100%;
+      }
+      input:focus {
+        border: 0;
+        outline: none;
+      }
+      input::placeholder {
+        color: #999999;
+        font-size: 1.2em;
+      }
+      input::-webkit-input-cursor {
+        margin-right: 15px;
+      }
+      .logo {
+        height: 2rem;
+        margin-right: 1.5rem;
+        margin-top: 0.75rem;
+      }
+      .button-search {
+        border: none;
+        display: flex;
+        cursor: pointer;
+        height: 2.125rem;
+        justify-content: center;
+        margin-top: 0.75rem;
+        img {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}
